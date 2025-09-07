@@ -1,0 +1,21 @@
+#newco {
+    background-color: rgba(40, 48, 55, 1);
+}
+
+.newcom-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-4 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    width: 250px;
+    height: auto;
+    border: 8px red;
+
+
+
+}

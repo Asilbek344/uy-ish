@@ -1,0 +1,25 @@
+#now {
+    background-color: rgba(40, 48, 55, 1);
+    
+}
+
+.now-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.now-2 p {
+    max-width: 393px;
+    height: 180px;
+    color: rgba(255, 255, 255, 0.78);
+    opacity: 1;
+    top: 3628px;
+    left: 751px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5%;
+    margin-left: 40px;
+}

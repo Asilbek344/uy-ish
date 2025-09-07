@@ -1,0 +1,156 @@
+.hero-p {
+    display: flex;
+    align-items: center;
+    margin-left: 111px;
+}
+
+#hero {
+    background-color: rgba(40, 48, 55, 1);;
+}
+
+.tex h1 {
+    font-weight: 500;
+    font-size: 50px;
+    color: #ffff;
+    line-height: 140%;
+    letter-spacing: 0%;
+    max-width: 600px;
+    height: 140px;
+    opacity: 1;
+    top: 178px;
+    left: 108px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.tex p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 487px;
+    height: 60px;
+    top: 348px;
+    left: 108px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.wox {
+    max-width: 50%;
+    height: 892px;
+    top: 132px;
+    left: 848px;
+    width: 100%;
+}
+
+.input-tp {
+    background-color: rgba(70, 70, 71, 0.071);
+    max-width: 497px;
+    height: 64px;
+    border-radius: 15px;
+    border-width: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+
+
+}
+
+.input-yu {
+    max-width: 227px;
+    height: 24px;
+    background-color: rgba(40, 48, 54, 1);
+    border-radius: 3px;
+    color: #ffff;
+}
+
+.button {
+    width: 130px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 110, 48, 1);
+    color: #ffff;
+}
+.button:hover{
+background-color: #ffff;
+transition:0.5s;
+color: rgba(255, 110, 48, 1);
+border: 1.9px solid rgba(255, 110, 48, 1);
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+ 
+
+
+@media (max-width:930px) {
+    .tex p {
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+
+    .wox {
+        max-width: 700px;
+        height: 440px;
+        width: 100%;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    }
+    .tex h1{
+        font-size: 29px;
+    }
+} 
+
+
+@media (max-width:480px) {
+    .input-tp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        max-width: 300px;
+        height: 70px;
+    }
+
+    .button {
+        max-width: 90px;
+        height: 30px;
+    }
+  .tex h1{
+    font-size: 29px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:368px) {
+    .te h1 {
+        font-size: 29px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        max-width: 90px;
+        height: 30px;
+    }
+
+    .tex p {
+        font-size: 16px;
+        flex-wrap: wrap;
+
+    }
+}
