@@ -1,5 +1,6 @@
   #about {
       background-color: rgba(40, 48, 54, 1);
+    
   }
 
   .h0 {
@@ -9,7 +10,9 @@
       padding-top: 100px;
 
   }
-
+.bb{
+  margin: 0 auto;
+}
   .x {
       color: rgba(255, 255, 255, 0.33);
       font-size: 18px;
@@ -23,8 +26,7 @@
       grid-template-columns: auto auto auto;
       gap: 30px;
       padding-bottom: 100px;
-      margin-left: 40px;
-      margin-right: 40px;
+      
   }
 
   .card p {
