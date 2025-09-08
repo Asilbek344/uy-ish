@@ -65,9 +65,11 @@
 .input-yu {
     max-width: 227px;
     height: 24px;
-    background-color: rgba(40, 48, 54, 1);
+    background-color: transparent;
     border-radius: 3px;
     color: #ffff;
+    border: none;
+
 }
 
 .button {
